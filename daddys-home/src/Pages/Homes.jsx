@@ -1,4 +1,5 @@
 import { Box } from "@mui/material";
+
 import Title from "../Components/Homes/Title";
 
 const Homes = () => {

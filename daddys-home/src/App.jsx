@@ -19,6 +19,7 @@ const App = withAuthInfo((props) => {
                 props.isLoggedIn ? (
                     <>
                         <p>Email: {props.user.email}</p>
+                        <p>Access Token: {props.accessToken}</p>
                         <Button color="inherit" onClick={() => logoutFunction(true)}>Logout</Button>
                     </>
                 ) : (

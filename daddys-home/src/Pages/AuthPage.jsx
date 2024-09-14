@@ -13,11 +13,12 @@ The handleLogin function logs the entered email and password (this is where you'
 */
 
 
-const Login = () => {
+function Login() {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
+  const [isSignUp, setIsSignUp] = useState(false);
 
-  const handleLogin = (event) => {
+  function handleLogin (event) {
     event.preventDefault();
     // Implement login logic
     console.log('Email:', email, 'Password:', password);

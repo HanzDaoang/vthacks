@@ -1,16 +1,17 @@
 import { Box, Typography } from "@mui/material";
 
-const Title = () => {
+const VirginiaTech = () => {
   return (
     <Box
-      width="100vw"
+      width="100%"
+      height="60%"
       display="flex"
       justifyContent="center"
       alignItems="center"
     >
-      <Typography variant="h1">Daddys Home</Typography>
+      <Typography>Virginia Tech</Typography>
     </Box>
   );
 };
 
-export default Title;
+export default VirginiaTech;

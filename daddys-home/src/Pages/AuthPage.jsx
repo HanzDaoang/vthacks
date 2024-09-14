@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Button, TextField, Typography, Paper } from '@mui/material';
+import { Box, Button, TextField, Typography, Paper, Link } from '@mui/material';
 /*
 Box is used to center the login form on the page.
 Paper gives the form a card-like appearance with elevation.
@@ -11,7 +11,6 @@ React's useState is used to manage the state of the email and password fields.
 The handleLogin function logs the entered email and password (this is where you'd implement actual login functionality).
 
 */
-
 
 function Login() {
   const [email, setEmail] = useState('');
@@ -30,8 +29,8 @@ function Login() {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        height: '100vh',
-        backgroundColor: '#f5f5f5'
+        height: '90vh',
+        backgroundColor: '#fffff'
       }}
     >
       <Paper elevation={2} sx={{ padding: '2rem', width: '500px' }}>
@@ -64,6 +63,11 @@ function Login() {
           >
             Login
           </Button>
+          <Typography variant="body2" sx={{ mt: 2, textAlign: 'center' }}>
+            Don't have an account? 
+
+            <Link href="#" sx={{ color: '#DDA0DD'}} underline="none"> Sign up here</Link>
+          </Typography>
         </form>
       </Paper>
     </Box>

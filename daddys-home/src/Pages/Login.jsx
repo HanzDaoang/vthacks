@@ -33,7 +33,7 @@ const Login = () => {
         backgroundColor: '#f5f5f5'
       }}
     >
-      <Paper elevation={3} sx={{ padding: '2rem', width: '400px' }}>
+      <Paper elevation={2} sx={{ padding: '2rem', width: '500px' }}>
         <Typography variant="h5" component="h1" sx={{ textAlign: 'center', mb: 2 }}>
           Login
         </Typography>

@@ -1,11 +1,14 @@
 import { Box } from "@mui/material";
 import School from "../Components/Home/School";
+import Perks from "../Components/Home/Perks";
 import PropTypes from 'prop-types'; // Import PropTypes
 
 const Home = ({ setID }) => {
   setID("/");
 
   return (
+    <>
+    
     <Box
       width="100%"
       height="60%"
@@ -14,7 +17,18 @@ const Home = ({ setID }) => {
       alignItems="center"
     >
       <School />
+      
     </Box>
+    <Box
+    width="100%"
+    height="60%"
+    display="flex"
+    justifyContent="center"
+    alignItems="center"
+    >
+      <Perks />
+    </Box>
+    </>
   );
 };
 

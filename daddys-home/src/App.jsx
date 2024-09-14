@@ -2,7 +2,7 @@ import { AppBar, Toolbar, Typography, Button, Box } from '@mui/material';
 import { Route, Routes, Link} from "react-router-dom";
 import Home from "./Pages/Home";
 import Homes from "./Pages/Homes";
-import Login from './Pages/Login'
+import AuthPage from './Pages/AuthPage'
 
 
 function App() {
@@ -23,13 +23,12 @@ function App() {
       </AppBar> */}
       <Button component={Link} to="/">Home</Button>
       <Button color="inherit" component={Link} to="/homes">Homes</Button>
-      <Button color="inherit" component={Link} to="/login">Login</Button>
-
+      <Button color="inherit" component={Link} to="/auth">Login</Button>
 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/homes" element={<Homes />} />
-        <Route path="/login" element={<Login />} />
+        <Route path="/auth" element={<AuthPage />} />
       </Routes>
 
     </Box>

@@ -37,12 +37,12 @@ const App = withAuthInfo((props) => {
                 props.isLoggedIn ? (
                     <>
                         <p>Email: {props.user.email}</p>
-                        <button onClick={() => logoutFunction(true)}>Logout</button>
+                        <Button color="inherit" onClick={() => logoutFunction(true)}>Logout</Button>
                     </>
                 ) : (
                     <>
-                    <button onClick={() => redirectToLoginPage()}>Login</button>
-                    <button onClick={() => redirectToSignupPage()}>Signup</button>
+                    <Button color="inherit" onClick={() => redirectToLoginPage()}>Login</Button>
+                    <Button color="inherit" onClick={() => redirectToSignupPage()}>Signup</Button>
                     </>
                 )
             }

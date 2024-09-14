@@ -13,7 +13,7 @@ root.render(
   <React.StrictMode>
     <AuthProvider authUrl={import.meta.env.VITE_AUTH_URL}>
       <BrowserRouter>
-        <YourApp />
+        <App />
       </BrowserRouter>
     </AuthProvider>
   </React.StrictMode>

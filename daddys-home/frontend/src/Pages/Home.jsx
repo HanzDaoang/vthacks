@@ -1,7 +1,7 @@
 import { Box } from "@mui/material";
-import School from "../Components/Home/School";
 import Perks from "../Components/Home/Perks";
 import PropTypes from 'prop-types'; // Import PropTypes
+import Chat from "../Components/Home/Chat";
 
 const Home = ({ setID }) => {
   setID("/");
@@ -16,8 +16,7 @@ const Home = ({ setID }) => {
       justifyContent="center"
       alignItems="center"
     >
-      <School />
-      
+      <Chat />
     </Box>
     <Box
     width="100%"

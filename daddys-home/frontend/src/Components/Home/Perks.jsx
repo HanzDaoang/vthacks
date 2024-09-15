@@ -11,7 +11,7 @@ const Perks = () => {
         alignItems="center">
             
             <Typography variant="h5" gutterBottom>
-                Join Daddy's Crib
+                Join Our Crib
             </Typography>
         </Box>
         <Box display="flex" justifyContent="space-between" width="80vw">
@@ -22,7 +22,7 @@ const Perks = () => {
         alignItems="center">
         <img src={desk} width={300} height={300} />
             <Typography variant="h6" mt={2}>
-                Post your experiences to Daddy
+                Post your experiences
             </Typography>
         </Box>
         <Box display="flex" flexDirection="column"
@@ -30,7 +30,7 @@ const Perks = () => {
         alignItems="center">
         <img src={safe} width={300} height={300} />
             <Typography variant="h6" mt={2}>
-                Daddy keeps you safe
+                Keeps you safe
             </Typography>
         </Box>
         <Box display="flex" flexDirection="column"
@@ -38,7 +38,7 @@ const Perks = () => {
         alignItems="center">
         <img src={thumbs} width={300} height={300} />
             <Typography variant="h6" mt={2}>
-                Daddy's approval
+                See ratings
             </Typography>
         </Box>
         </Box>

@@ -27,7 +27,6 @@ function Header(id) {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters sx={{ justifyContent: "space-between" }}>
-          {/* Left side - Icon with "Daddy's Home" */}
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <IconButton size="large" color="inherit" href="/">
               <HouseIcon sx={{ mr: 1 }} />
@@ -45,7 +44,7 @@ function Header(id) {
                 textDecoration: "none",
               }}
             >
-              Daddys Home
+              Hows my House
             </Typography>
           </Box>
 
